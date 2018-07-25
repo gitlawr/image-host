@@ -2,6 +2,6 @@ stages:
 - name: test
   steps:
   - runScriptConfig:
-      image: busybox:notexist
-      shellScript: sleep 30
+      image: busybox
+      shellScript: echo hi
 timeout: 60
